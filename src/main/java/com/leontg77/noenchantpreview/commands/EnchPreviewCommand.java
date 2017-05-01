@@ -39,9 +39,12 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
+import org.bukkit.entity.Player;
 import org.bukkit.util.StringUtil;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * EnchPreview command class.
@@ -151,9 +154,18 @@ public class EnchPreviewCommand implements CommandExecutor, TabCompleter {
             if (sender.hasPermission(PERMISSION)) {
                 list.add("enable");
                 list.add("disable");
+                list.add("exempt");
             }
         }
 
+        if (args.length == 2 && args[0].equalsIgnoreCase("exempt")) {
+            list.addAll(Bukkit.getOnlinePlayers()
+                    .stream()
+                    .map(Player::getName)
+                    .collect(Collectors.toList()));
+        }
+
+        Collections.sort(list);
         return StringUtil.copyPartialMatches(args[args.length - 1], list, Lists.newArrayList());
     }
 }
