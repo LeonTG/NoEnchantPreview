@@ -2,7 +2,7 @@
 
 **Description:**
 
-Disable the 1.8 enchantment preview, you still need lapis.
+Disable the 1.8 Enchantment Preview! You still need lapis.
 
 ___
 
@@ -22,4 +22,6 @@ ___
 
 [Download](https://github.com/LeonTG77/NoEnchantPreview/releases)
 
-*This has been tested on the latest spigot 1.8.7 build.*
+[Source Code](https://github.com/LeonTG77/NoEnchantPreview)
+
+*This has been tested on using [this jar](https://github.com/LeonTG77/NoEnchantPreview/libs).*

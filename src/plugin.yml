@@ -1,9 +1,0 @@
-name: NoEnchantPreview
-main: com.leontg77.noenchantpreview.Main
-version: 1.0
-author: LeonTG77
-description: Disable the 1.8 enchantment preview, you still need lapis.
-
-commands:
-    enchpreview:
-        description: Get information, enable or disable the feature.

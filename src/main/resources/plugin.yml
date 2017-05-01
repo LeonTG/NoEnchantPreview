@@ -1,0 +1,10 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.Main
+version: ${project.version}
+author: LeonTG
+description: Disable the 1.8 Enchantment Preview! You still need lapis.
+
+commands:
+  enchpreview:
+    description: Get information, enable or disable the feature.
+    aliases: [epreview, echprev, eprev]
