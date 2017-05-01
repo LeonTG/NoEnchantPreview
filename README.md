@@ -14,6 +14,8 @@ ___
 
 /enchpreview disable - *Disable the preview.*
 
+/enchpreview exempt <player> - *Exempt a player from having the preview disabled*
+
 **Permissions:**
 
 *enchpreview.manage* - Permission to use /enchpreview
