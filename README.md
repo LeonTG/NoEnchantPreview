@@ -26,4 +26,4 @@ ___
 
 [Source Code](https://github.com/LeonTG77/NoEnchantPreview)
 
-*This has been tested on using [this jar](https://github.com/LeonTG77/NoEnchantPreview/libs).*
+*This has been tested on using [this jar](https://github.com/LeonTG/NoEnchantPreview/tree/master/libs).*
